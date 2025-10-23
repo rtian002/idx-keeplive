@@ -1,7 +1,7 @@
 //IDX 保活程序，配合actions
 
 const allhosts=[
-	'8080-firebase-mypy-1760252708776.cluster-wedahaehd5aywvfphtlyiyof4i.cloudworkstations.dev',
+	'8000-firebase-mypy-1760252708776.cluster-wedahaehd5aywvfphtlyiyof4i.cloudworkstations.dev',
 	'3000-firebase-python-flask-1761118309624.cluster-edb2jv34dnhjisxuq5m7l37ccy.cloudworkstations.dev'
 ]
 const puppeteer = require('puppeteer');
