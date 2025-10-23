@@ -1,0 +1,29 @@
+name: LUNES_API
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11,33,55 * * * *' 
+  repository_dispatch:
+    types:
+      - webapi
+
+
+jobs:
+  Access-web:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js  
+        uses: actions/setup-node@v4  
+        with:  
+          node-version: '22.x'
+  
+      - name: Install dependencies  
+        run: npm install puppeteer  
+        
+      - name: Access to website  
+        run: |  
+          set -e  
+          xvfb-run --server-args="-screen 0 1280x1180x24" node idx_keeplive.js
+        
