@@ -3,9 +3,9 @@
 const allhosts=[
 	'8000-firebase-mypy-1760252708776.cluster-wedahaehd5aywvfphtlyiyof4i.cloudworkstations.dev',
 	'3000-firebase-python-flask-1761118309624.cluster-edb2jv34dnhjisxuq5m7l37ccy.cloudworkstations.dev',
-	'hello-world-2739716752009391.aws.databricksapps.com',
-	'app-4335342115590245.aws.databricksapps.com',
-	'node-2929113633801160.aws.databricksapps.com'
+//	'hello-world-2739716752009391.aws.databricksapps.com',
+	//'app-4335342115590245.aws.databricksapps.com',
+//	'node-2929113633801160.aws.databricksapps.com'
 ]
 //app-713666153180502.aws.databricksapps.com
 const puppeteer = require('puppeteer');
